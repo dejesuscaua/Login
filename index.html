@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="Pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./Src/styles/index.css">
+    <script src="./Src/scripts/index.js" defer></script>
+</head>
+<body>
+    <div class="container" id="main">
+        <div class="sign-in">
+            <form action="#">
+                <h1>Crie uma conta</h1>
+                <p></p>
+                <input type="text" name="txt" placeholder="Primeiro Nome" required="">
+                <input type="text" name="txt" placeholder="Segundo Nome" required="">
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="password" name="pswd" placeholder="Senha" required="">
+                <input type="password" name="pswd" placeholder="Confrimação de senha" required="">
+                <button>Sign Up</button>
+            </form>
+        </div>
+
+        <div class="sign-up">
+            <form action="#">
+                <h1>Entrar</h1>
+                <p></p>
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="password" name="pswd" placeholder="Senha" required="">
+                <a href="#">Esqueceu sua senha?</a>
+                <button>Sign In</button>
+            </form>
+        </div>
+
+        <div class="overlay_container">
+            <div class="overlay">
+                <div class="overlay-left">
+                    <h1>Olá, amigo!</h1>
+                    <p>Insira suas informações para mudar o mundo com a gente!</p>
+                    <button id="SignIn">Sign Up</button>
+                </div>
+
+                <div class="overlay-right">
+                    <h1>Bem-vindo de volta</h1>
+                    <p>Para manter-se conectado insira suas informações</p>
+                    <button id="SignUp">Sign In</button>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <div class="voltar">
+        <a href="../pages/principal.html" class="hover_animation">Voltar</a> 
+    </div>
+
+    <button id="whiteMode">Alternar modo</button>
+</body>
+</html>
